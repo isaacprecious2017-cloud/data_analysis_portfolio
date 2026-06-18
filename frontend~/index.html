@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Irene Anthony | Data Analyst Portfolio</title>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVIGATION MENU -->
+  <nav class="navbar">
+    <div class="logo">Irene Anthony</div>
+
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#documents">Documents</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header class="hero" id="home">
+    <div class="hero-content">
+      <img src="Irene.png" alt="Profile Photo" class="profile-img" />
+
+      <h1>Irene Anthony</h1>
+      <h2>Data Analyst | BI Developer | Research Analyst</h2>
+
+      <p class="hero-summary">
+        I transform raw data into clear business insights using Excel, SQL, Power BI,
+        Python and statistical analysis. I build dashboards, clean datasets, prepare
+        reports and communicate findings that support better decisions.
+      </p>
+
+      <p class="skills">
+        Excel • Power BI • SQL • Python • Tableau • SPSS • Data Visualization
+      </p>
+
+      <div class="hero-buttons">
+       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=anthonyirene34@gmail.com" target="_blank">
+  Send Email
+</a>
+        <a href="https://wa.me/2348161912224" target="_blank">WhatsApp</a>
+        <a href="#documents">View Portfolio</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section class="section about" id="about">
+    <h2>About Me</h2>
+
+    <p>
+      I am a Data Analyst with strong experience in data cleaning, data visualization,
+      dashboard development, business reporting, and research analysis. I use tools such as
+      Excel, Power BI, SQL, Python, Tableau, SPSS, and statistical methods to transform raw
+      data into clear insights that support business and research decisions.
+    </p>
+
+    <p>
+      I am skilled in building dashboards, preparing analytical reports, identifying trends,
+      working with datasets, and presenting findings in a way that is easy for both technical
+      and non technical users to understand.
+    </p>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="section" id="skills" style="background-color: #f9f9f9;">
+    <h2>Core Data Analysis Skills</h2>
+
+    <div class="cards">
+      <div class="card">
+        <h3>Excel Analytics</h3>
+        <p>Pivot tables, formulas, lookup functions, charts, data cleaning and business reporting.</p>
+      </div>
+
+      <div class="card">
+        <h3>Power BI Dashboards</h3>
+        <p>Interactive dashboards, DAX measures, KPI cards, slicers, charts and business intelligence reports.</p>
+      </div>
+
+      <div class="card">
+        <h3>SQL Analysis</h3>
+        <p>Data extraction, joins, filtering, aggregation, cleaning queries and database reporting.</p>
+      </div>
+
+      <div class="card">
+        <h3>Python Analysis</h3>
+        <p>Pandas, NumPy, data cleaning, exploratory data analysis and chart preparation.</p>
+      </div>
+
+      <div class="card">
+        <h3>Data Visualization</h3>
+        <p>Clear charts, trend analysis, comparison visuals, dashboard storytelling and KPI presentation.</p>
+      </div>
+
+      <div class="card">
+        <h3>Research Analysis</h3>
+        <p>Survey data analysis, descriptive statistics, interpretation of findings and report writing.</p>
+      </div>
+
+      <div class="card">
+        <h3>Data Cleaning</h3>
+        <p>Handling missing values, duplicates, inconsistent formats and preparing reliable datasets.</p>
+      </div>
+
+      <div class="card">
+        <h3>Reporting</h3>
+        <p>Monthly reports, performance summaries, business insights and stakeholder presentations.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="section" id="projects">
+    <h2>Data Analysis Projects</h2>
+
+    <p class="section-intro">
+      Selected data analysis projects showing dashboard development, data cleaning,
+      business intelligence, research analysis and insight generation.
+    </p>
+
+    <div id="projectsList" class="projects-list"></div>
+  </section>
+
+  <!-- UPLOAD DOCUMENT SECTION -->
+  <section class="section">
+    <h2>Upload Portfolio Document</h2>
+
+    <form id="uploadForm" class="upload-form">
+      <input type="text" id="title" placeholder="Project or document title" required />
+
+      <select id="category" required>
+        <option value="">Select category</option>
+        <option value="Power BI Dashboard">Power BI Dashboard</option>
+        <option value="Excel Project">Excel Project</option>
+        <option value="SQL Project">SQL Project</option>
+        <option value="Python Analysis">Python Analysis</option>
+        <option value="Research Report">Research Report</option>
+        <option value="Resume">Resume</option>
+      </select>
+
+      <textarea id="description" placeholder="Brief description of the document" required></textarea>
+
+      <input type="file" id="file" required />
+
+      <button type="submit">Upload Document</button>
+    </form>
+
+    <p id="uploadMessage"></p>
+  </section>
+
+  <!-- DOCUMENTS SECTION -->
+  <section class="section" id="documents">
+    <h2>Portfolio Documents</h2>
+
+    <div id="documentsList" class="documents-list"></div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact" id="contact">
+    <h2>Contact Me</h2>
+
+    <div class="contact-grid">
+      <div>
+        <h3>Let us work together</h3>
+
+        <p style="text-align: justify;">
+          I am open to Data Analyst roles, dashboard development work,
+          research data analysis, business reporting and freelance analytics projects.
+        </p>
+
+        <p><strong>Email:</strong> anthonyirene34@gmail.com</p>
+        <p><strong>Phone:</strong> +234 806 404 7510</p>
+        <p><strong>Location:</strong> Abuja, Nigeria</p>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/ireneanthony</p>
+      </div>
+
+      <form id="contactForm" class="upload-form">
+        <input type="text" id="fullName" placeholder="Full name" required />
+        <input type="email" id="contactEmail" placeholder="Email address" required />
+        <input type="text" id="contactSubject" placeholder="Subject" />
+        <textarea id="contactMessage" placeholder="Write your message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+    <p id="contactResponse"></p>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 Irene Anthony. Data Analyst Portfolio.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
